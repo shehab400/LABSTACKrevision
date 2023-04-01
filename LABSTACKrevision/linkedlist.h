@@ -11,18 +11,7 @@ public:
 	{
 		Head = nullptr;
 	}
-	void printlist()
-	{
-		if (isempty())
-		{
-			cout << "list is empty";
-		}
-		while (Head->getnext())
-		{
-			cout << Head->getitem();
-			Head = Head->getnext();
-		}
-	}
+	
 	void PrintList()	const
 	{
 		cout << "\nprinting list contents:\n\n";
